@@ -1,0 +1,49 @@
+  315  cd checkpoint-YesicaBlanco/
+  316  echo "# Checkpoint-YesicaBlanco" >> README.md
+  317  git init
+  318  git add README.md
+  319  git commit -m "first commit"
+  320  git branch -M main
+  321  git remote add origin git@github.com:Yesiblato/Checkpoint-YesicaBlanco.git
+  322  git push -u origin main
+  323  touch main.js index.html
+  324  git status
+  325  git add index.html main.js
+  326  git commit -m "Commit 01 de Yesica Blanco"
+  327  git push origin main
+  328  git status
+  329  git branch feature
+  330  git checkout feature
+  331  mkdir Hardware Software SeguridadInformatica
+  332  cd Hardware/
+  333  touch resumen.txt
+  334  cd ..
+  335  So
+  336  cd Software/
+  337  touch resumen.txt
+  338  cd ..
+  339  cd SeguridadInformatica/
+  340  touch resumen.txt
+  341  cd ..
+  342  git status
+  343  git add .
+  344  git commit -m "Commit 02 de Yesica Blanco"
+  345  git push origin feature
+  346  git checkout main
+  347  git pull origin feature
+  348  ren main.js resumenHadware.txt
+  349  mv main.js resumenHadware.txt
+  350  mv index.html resumenSoftware.txt
+  351  mkdir comandos.txt
+  352  touch comandos.txt
+  353  touch comandos.txt
+  354  history
+  355  history 40
+  356  history 45
+  357  history 46
+  358  history 444
+  359  history 44
+  360  history 46
+  361  history 48
+  362  history 48 > comando.txt
+  363  history 49 > comandos.txt
